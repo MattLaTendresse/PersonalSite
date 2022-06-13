@@ -15,7 +15,8 @@ const Footer = () => {
     window.location.href = "https://github.com/MattLaTendresse";
   };
   const handleResumeClick = () => {
-    window.location.href = "https://drive.google.com/drive/u/0/my-drive";
+    window.location.href =
+      "https://drive.google.com/file/d/1iVB9dTnZsL5SilGsqPhL1vWtsCFhGrjt/view?usp=sharing";
   };
   const handleMailClick = () => {
     window.location.href = "mailto:matthewlatendresse0803@gmail.com";
