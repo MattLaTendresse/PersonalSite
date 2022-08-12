@@ -5,6 +5,7 @@ import Box from "@mui/material/Box";
 import Avatar from "@mui/material/Avatar";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Button from "@mui/material/Button";
+import headshot from "./picture.jpg";
 
 const MediaCard = () => {
   const handleGameClick = () => {
@@ -55,7 +56,7 @@ const MediaCard = () => {
           </Typography>
           <Avatar
             sx={{ width: "40%", height: "50%", m: "auto", mb: 1 }}
-            src="https://media-exp1.licdn.com/dms/image/C4E03AQEJFbzpAVmVYA/profile-displayphoto-shrink_800_800/0/1633016328184?e=1659571200&v=beta&t=MyhaPnznIjiPSkkYhzzILs-GOOEV9TNE_oLmbLgYv8E"
+            src={headshot}
           />
         </CardMedia>
 
