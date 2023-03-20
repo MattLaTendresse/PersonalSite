@@ -5,7 +5,7 @@ import Box from "@mui/material/Box";
 import Avatar from "@mui/material/Avatar";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Button from "@mui/material/Button";
-import headshot from "./picture.jpg";
+import headshot from "./closeheadshot.jpeg";
 
 const MediaCard = () => {
   const handleGameClick = () => {
