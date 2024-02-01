@@ -6,6 +6,7 @@ import Avatar from "@mui/material/Avatar";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Button from "@mui/material/Button";
 import headshot from "./closeheadshot.jpeg";
+import  {Link}  from "@mui/material";
 
 const MediaCard = () => {
   const handleGameClick = () => {
@@ -166,6 +167,65 @@ const MediaCard = () => {
             mt: 3,
           }}
         >
+        <Typography
+        variant="h4"
+        sx={{
+          fontFamily: "monospace",
+          fontWeight: 800,
+          m: 1,
+          color: "black",
+          textAlign: "center",
+        }}
+      >
+        👍 Things I like 👍
+      </Typography>
+      <Typography
+            variant="h6"
+            sx={{
+              fontFamily: "monospace",
+              fontWeight: 300,
+              color: "black",
+              textAlign: "center",
+              alignContent: "center"
+            }}
+          >
+            <Link
+            href="https://www.bonappetit.com/recipe/chicken-piccata-2"
+            >
+            Favorite Recipe atm
+            </Link>
+          </Typography>
+          <Typography
+            variant="h6"
+            sx={{
+              fontFamily: "monospace",
+              fontWeight: 300,
+              color: "black",
+              textAlign: "center",
+              alignContent: "center"
+            }}
+          >
+            <Link
+            href="https://www.youtube.com/@AlexRollinsNFL/videos">
+            NFL Youtube
+            </Link>
+          </Typography>
+
+          <Typography
+            variant="h6"
+            sx={{
+              fontFamily: "monospace",
+              fontWeight: 300,
+              color: "black",
+              textAlign: "center",
+              alignContent: "center"
+            }}
+          >
+            <Link
+            href="https://kuathletics.com/sports/football/">
+            Go Hawks!
+            </Link>
+          </Typography>
           <Typography
             variant="h4"
             sx={{
