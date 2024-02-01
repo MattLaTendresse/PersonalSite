@@ -14,7 +14,7 @@ const HeaderComp = () => {
             display: { display: "flex", justifyContent: "center" },
             fontFamily: "monospace",
             fontWeight: 800,
-            letterSpacing: ".5rem",
+            letterSpacing: ".05rem",
             width: "auto",
           }}
         >

@@ -18,18 +18,6 @@ const MediaCard = () => {
 
   return (
     <>
-      <Typography
-        variant="h4"
-        sx={{
-          fontFamily: "monospace",
-          fontWeight: 800,
-          letterSpacing: ".5rem",
-          textAlign: "center",
-          m: 3,
-        }}
-      >
-        👇Scroll down to👇
-      </Typography>
       <Box
         sx={{
           "&.MuiBox-root": { display: "flex", flexDirection: "column" },
@@ -100,7 +88,7 @@ const MediaCard = () => {
               textAlign: "center",
             }}
           >
-            I'm currently working at Garmin in Olathe, KS as a software engineer
+            I'm currently working at Security Benefit as a software engineer
             intern.
           </Typography>
           <Typography
@@ -156,7 +144,18 @@ const MediaCard = () => {
               textAlign: "center",
             }}
           >
-            Graduating December 2023
+            Minor in Math
+          </Typography>
+          <Typography
+            variant="h6"
+            sx={{
+              fontFamily: "monospace",
+              fontWeight: 300,
+              color: "black",
+              textAlign: "center",
+            }}
+          >
+            Graduating May 2024
           </Typography>
         </CardMedia>
         <CardMedia

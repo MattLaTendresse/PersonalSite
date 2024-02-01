@@ -32,7 +32,7 @@ const Footer = () => {
           textAlign: "center",
         }}
       >
-        © 2022 Matt LaTendresse.
+        © 2024 Matt LaTendresse.
       </Typography>
       <Box
         sx={{
